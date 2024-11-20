@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sastha Spotify</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="click_to_register">CLICK TO REGISTER</string>
+    <string name="logout">LOGOUT</string>
+    <string name="register">REGISTER</string>
+    <string name="click_to_login">CLICK TO LOGIN</string>
+    <string name="content">Content</string>
+    <string name="file_name">File Name</string>
+</resources>

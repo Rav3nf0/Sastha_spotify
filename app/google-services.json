@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835826855162",
+    "project_id": "music-player-5b241",
+    "storage_bucket": "music-player-5b241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835826855162:android:23dd22c7456d6630b7ad43",
+        "android_client_info": {
+          "package_name": "com.example.musicplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbXvtsWjKt68iEMatv52gdvUZ9gTx52P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835826855162:android:5b1435877787202bb7ad43",
+        "android_client_info": {
+          "package_name": "com.example.sasthaspotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbXvtsWjKt68iEMatv52gdvUZ9gTx52P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

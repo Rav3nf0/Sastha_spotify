@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        android:backgroundTint="#ffffff"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/llRow">
+
+            <ImageView
+                android:id="@+id/imgSongs"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                tools:srcCompat = "@drawable/music"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txtName"
+                    android:textColor="@color/black"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Song"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/play30"/>
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pause30"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"
+            android:text="pause"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
